@@ -171,9 +171,10 @@ address{font-style:normal}
 
 .hero-c{padding:48px 0 32px;border-bottom:1px solid var(--line)}
 .crumbs{font-size:.875rem;margin-bottom:12px}
-.crumbs ol{display:flex;gap:10px;flex-wrap:wrap;list-style:none;margin:0;padding:0}
+.crumbs ol{display:flex;align-items:center;gap:10px;flex-wrap:wrap;list-style:none;margin:0;padding:0}
+.crumbs li{display:flex;align-items:center}
 .crumbs li+li::before{content:"/";margin-right:10px;color:var(--gold-dk)}
-.crumbs a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;text-underline-offset:4px}
+.crumbs a,.crumbs [aria-current]{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:4px}
 .hero-c h1{font-size:clamp(2.5rem,5vw,4rem);font-weight:400;margin:8px 0 12px}
 .hero-c .intro{font-size:1.125rem;max-width:56ch}
 .split{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,5vw,72px);padding:48px 0 80px;align-items:start}

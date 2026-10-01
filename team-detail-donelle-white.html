@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-CA" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="light">
+<title>Donelle White | Hartley Law Group (Draft: Team detail)</title>
+<meta name="description" content="Draft: individual attorney profile page for Donelle White, Hartley Law Group.">
+<script>document.documentElement.className=document.documentElement.className.replace("no-js","js");</script>
+<style>
+
+@font-face{font-family:"Fraunces";src:url("fonts/Fraunces-var.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Public Sans";src:url("fonts/PublicSans-var.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+:root{
+  --navy:#0F2A49;--navy-deep:#0A1D34;--gold:#AE965C;--gold-lt:#C9B27A;--gold-dk:#6B5521;
+  --cream:#FAF7EF;--cream-2:#F1EBDA;--ink:#1F2933;--muted:#4D4D4D;--line:#D8CFB6;--white:#fff;
+  --focus:#0F2A49;
+  --ease:cubic-bezier(.22,1,.36,1);--ease-ui:cubic-bezier(.4,0,.2,1);
+  --serif:"Fraunces",Georgia,"Times New Roman",serif;
+  --sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --gutter:clamp(20px,5vw,48px);
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:104px}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 1.0625rem/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.12;margin:0;color:var(--navy);font-optical-sizing:auto;letter-spacing:-.005em}
+p{margin:0}
+a{color:inherit}
+ul{margin:0;padding:0;list-style:none}
+address{font-style:normal}
+.wrap{width:min(1200px,100% - 2 * var(--gutter));margin-inline:auto}
+.sr{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+.skip{position:absolute;left:12px;top:-80px;z-index:100;background:var(--navy);color:var(--cream);padding:12px 18px;min-height:44px;display:inline-flex;align-items:center;font-weight:600;border-radius:2px}
+.skip:focus{top:12px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:2px}
+.on-dark{--focus:#F3E9C8}
+.on-dark :focus-visible{outline-color:#F3E9C8}
+
+/* placeholder + dagger */
+.ph{display:inline;padding:.05em .45em;border:1px dashed #7A5C00;background:#FFF6D1;color:#4A3A00;border-radius:3px;font-size:.9em;font-weight:500;line-height:1.6;font-style:normal;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.dg{color:var(--gold-dk);font-weight:700;margin-left:1px}
+.on-dark .dg{color:var(--gold-lt)}
+
+/* notice */
+.notice{background:#FFF6D1;color:#4A3A00;border-bottom:1px dashed #7A5C00;font-size:.875rem;line-height:1.5;padding:8px var(--gutter);text-align:center}
+.notice .ph{background:#fff}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:50;background:var(--cream)}
+.site-header::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:var(--line)}
+.site-header::before{content:"";position:absolute;left:0;right:0;top:100%;height:18px;pointer-events:none;background:linear-gradient(rgba(15,42,73,.16),rgba(15,42,73,0));opacity:0;transition:opacity .25s ease-out}
+.site-header.is-scrolled::before{opacity:1}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:84px}
+.brand{display:inline-flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;color:var(--navy);line-height:1}
+.brand-main{font-family:var(--serif);font-size:1.75rem;font-weight:500;letter-spacing:.01em}
+.brand-sub{font-size:.6875rem;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--gold-dk);margin-top:5px;padding-top:5px;border-top:1px solid var(--gold)}
+.nav-list{display:flex;align-items:center;gap:6px 22px;flex-wrap:wrap;justify-content:flex-end}
+.nav-link{position:relative;display:inline-flex;align-items:center;min-height:44px;min-width:44px;justify-content:center;padding:0 2px;text-decoration:none;font-size:.9375rem;font-weight:500;color:var(--navy)}
+.nav-link::after{content:"";position:absolute;left:2px;right:2px;bottom:7px;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .25s ease-out}
+.nav-link:hover::after,.nav-link:focus-visible::after,.nav-link[aria-current="page"]::after{transform:scaleX(1)}
+.phone{display:inline-flex;align-items:center;min-height:44px;font-weight:600;color:var(--navy);text-decoration:none;white-space:nowrap;padding:0 4px;transition:color .2s var(--ease-ui)}
+.phone:hover{color:var(--gold-dk);text-decoration:underline}
+.nav-toggle{display:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 26px;background:var(--gold);color:var(--navy);border:2px solid var(--gold);border-radius:2px;font:600 1rem/1 var(--sans);text-decoration:none;cursor:pointer;transition:background-color .2s var(--ease-ui),color .2s var(--ease-ui),border-color .2s var(--ease-ui)}
+.btn:hover{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+.btn--sm{min-height:44px;padding:0 20px;font-size:.9375rem}
+.btn--ghost{background:transparent;border-color:var(--navy);color:var(--navy)}
+.btn--ghost:hover{background:var(--navy);color:var(--cream)}
+.on-dark .btn:hover{background:var(--cream);border-color:var(--cream);color:var(--navy)}
+.on-dark .btn--ghost{border-color:var(--cream);color:var(--cream)}
+.on-dark .btn--ghost:hover{background:var(--cream);color:var(--navy)}
+.link{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-weight:600;color:var(--navy);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px;text-decoration-color:var(--gold-dk);transition:color .2s var(--ease-ui)}
+.link:hover{color:var(--gold-dk)}
+.link .arr{display:inline-block;transition:transform .2s var(--ease-ui)}
+.link:hover .arr,.link:focus-visible .arr{transform:translateX(4px)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip-s{display:inline-flex;align-items:center;min-height:30px;padding:2px 12px;border:1px solid var(--gold-dk);border-radius:999px;font-size:.875rem;font-weight:500;color:var(--navy);background:transparent;line-height:1.3}
+.chip-s.is-ph{border-style:dashed;border-color:#7A5C00;background:#FFF6D1;color:#4A3A00}
+
+/* monogram portrait */
+.pf{position:relative;overflow:hidden;background:linear-gradient(155deg,#16395F 0%,#0F2A49 55%,#0A1D34 100%);aspect-ratio:4/5}
+.pf::after{content:"";position:absolute;inset:14px;border:1px solid var(--gold);pointer-events:none}
+.mono{width:100%;height:100%;transition:transform .5s ease-out;transform-origin:50% 45%}
+.mono .ini{font-family:var(--serif);font-size:150px;font-weight:300;fill:#FAF7EF;letter-spacing:.02em}
+.mono .cap{font-family:var(--sans);font-size:15px;font-weight:600;letter-spacing:.3em;fill:var(--gold-lt)}
+.mono.thumb .cap{display:none}
+
+/* reveal: content visible without JS; hidden state only when .js is set */
+.js .reveal{opacity:0;transform:translateY(16px);transition:opacity .5s var(--ease),transform .5s var(--ease);transition-delay:calc(var(--i,0) * 80ms)}
+.js .reveal.is-visible{opacity:1;transform:none}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.js .hero-in{animation:rise .6s var(--ease) both;animation-delay:calc(var(--d,0) * 100ms)}
+.sweep{position:relative}
+.sweep::after{content:"";position:absolute;left:0;right:0;bottom:-8px;height:2px;background:currentColor;transform:scaleX(1);transform-origin:left}
+.js .sweep::after{transform:scaleX(0)}
+.js .is-visible .sweep::after{transform:scaleX(1);transition:transform .7s var(--ease) .3s}
+
+/* footer */
+.site-footer{background:var(--navy-deep);color:#E9E1CC;padding:64px 0 28px;font-size:.9375rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot-name{font-family:var(--serif);font-size:1.5rem;color:#fff;margin-bottom:12px}
+.foot-h{font-size:.75rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-lt);margin-bottom:8px}
+.foot-list a,.site-footer address a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;color:#E9E1CC;text-underline-offset:4px;transition:color .2s var(--ease-ui)}
+.foot-list a:hover{color:#fff}
+.foot-legal{margin-top:40px;padding-top:20px;border-top:1px solid rgba(233,225,204,.25);font-size:.875rem;color:#E9E1CC}
+
+/* quick bar (mobile) */
+.quickbar{display:none}
+
+@media (max-width:1100px){
+  .bar{min-height:72px}
+  .js .nav-toggle{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:0 16px;background:transparent;border:1.5px solid var(--navy);border-radius:2px;color:var(--navy);font:600 .9375rem/1 var(--sans);cursor:pointer}
+  .nav-toggle-bars{width:18px;height:12px;border-top:2px solid currentColor;border-bottom:2px solid currentColor;position:relative}
+  .nav-toggle-bars::after{content:"";position:absolute;left:0;right:0;top:3px;height:2px;background:currentColor}
+  .js .nav-list{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:var(--cream);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px var(--gutter) 20px;box-shadow:0 18px 30px -20px rgba(15,42,73,.4)}
+  .js .nav-list.is-open{display:flex}
+  .js .nav-link{min-height:48px;font-size:1.0625rem;border-bottom:1px solid var(--line);width:100%}
+  .js .nav-link::after{display:none}
+  .js .nav-link[aria-current="page"]{font-weight:700;box-shadow:inset 3px 0 0 var(--gold);padding-left:12px}
+  .js .nav-phone .phone{min-height:48px}
+  .js .nav-cta{margin-top:10px}.js .nav-cta .btn{width:100%}
+  .nav{position:static}
+  .bar{position:relative}
+  .no-js .nav-list{justify-content:flex-start;gap:2px 14px;padding-bottom:10px}
+  .no-js .bar{flex-wrap:wrap;padding-top:8px}
+}
+@media (max-width:767px){
+  body{font-size:1rem;padding-bottom:72px}
+  .brand-main{font-size:1.5rem}
+  .foot-grid{grid-template-columns:1fr;gap:24px}
+  .quickbar{display:grid;grid-template-columns:1fr 2fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:8px var(--gutter) calc(8px + env(safe-area-inset-bottom));background:var(--cream);border-top:1px solid var(--line);box-shadow:0 -10px 24px -16px rgba(15,42,73,.35)}
+  .quickbar a{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:2px;font-weight:600;text-decoration:none}
+  .qb-call{border:2px solid var(--navy);color:var(--navy)}
+  .qb-cta{background:var(--gold);color:var(--navy);border:2px solid var(--gold)}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  .js .reveal{transform:none;transition:opacity .15s linear;transition-delay:0s}
+  .js .hero-in{animation:none}
+  .js .sweep::after,.js .is-visible .sweep::after{transform:scaleX(1);transition:none}
+  .mono,.link .arr,.nav-link::after,.btn,.site-header::before{transition:none!important}
+  *{animation-duration:.01ms!important;animation-iteration-count:1!important}
+}
+
+
+.eyebrow{font-size:.8125rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dk)}
+.role{font-size:.9375rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dk)}
+.glance{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 28px;margin:0}
+.glance div{border-top:1px solid var(--line);padding-top:10px}
+.glance dt{font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dk)}
+.glance dd{margin:4px 0 0;font-size:1rem;line-height:1.45}
+.proof{background:var(--cream-2);padding:80px 0 72px;border-top:1px solid var(--line)}
+.proof-h{font-size:clamp(1.75rem,3vw,2.5rem);margin-bottom:36px}
+.proof-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px}
+.proof-grid li{border-top:2px solid var(--gold);padding-top:18px}
+.proof-k{font-family:var(--serif);font-size:1.375rem;line-height:1.2;color:var(--navy);margin-bottom:10px}
+.proof-grid p:last-child{font-size:1rem;color:var(--ink)}
+.proof-note{margin-top:32px;font-size:.875rem}
+.cta{background:var(--navy);color:#F4EEDC;padding:72px 0}
+.cta-in{display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap}
+.cta-copy{max-width:640px}
+.cta h2{color:#fff;font-size:clamp(1.75rem,3.2vw,2.5rem);margin-bottom:12px}
+.cta p{font-size:1.0625rem}
+.cta .sweep{color:var(--gold-lt);display:inline-block}
+.cta-actions{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+@media (max-width:1023px){.proof-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:639px){.proof{padding:56px 0}.proof-grid{grid-template-columns:1fr;gap:24px}.cta{padding:56px 0}.cta-actions{width:100%}.cta-actions .btn{width:100%}.cta-actions .sweep{width:100%}.glance{grid-template-columns:1fr 1fr;gap:14px 16px}}
+
+
+/* ===== Team detail page (profile) ===== */
+.crumbs{font-size:.875rem;margin:0}
+.crumbs ol{display:flex;gap:10px;flex-wrap:wrap;list-style:none;margin:0;padding:0;align-items:center}
+.crumbs li+li::before{content:"/";margin-right:10px;color:var(--gold-dk)}
+.crumbs a{display:inline-flex;align-items:center;min-height:44px;min-width:44px;text-underline-offset:4px}
+.crumbs [aria-current]{display:inline-flex;align-items:center;min-height:44px;font-weight:600;color:var(--navy)}
+.d-hero{padding:20px 0 56px}
+.d-hero-grid{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(32px,6vw,80px);align-items:end;margin-top:12px}
+.d-hero .pf{box-shadow:0 30px 50px -36px rgba(15,42,73,.5)}
+.d-hero h1{font-size:clamp(2.75rem,6.4vw,5.25rem);font-weight:300;line-height:1;letter-spacing:-.02em;margin:12px 0 22px}
+.d-hero .lede{font-family:var(--serif);font-size:clamp(1.125rem,1.8vw,1.375rem);line-height:1.45;font-weight:300;max-width:48ch;margin:0 0 22px;color:var(--ink)}
+.d-hero .chips{margin:0 0 28px}
+a.chip-s{text-decoration:none;min-height:44px;padding:2px 16px;transition:background-color .2s var(--ease-ui),color .2s var(--ease-ui)}
+a.chip-s:hover{background:var(--navy);border-color:var(--navy);color:var(--cream)}
+.d-actions{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center}
+.d-actions .phone-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-weight:600;color:var(--navy);text-underline-offset:5px;text-decoration-color:var(--gold-dk)}
+.d-actions .phone-link:hover{color:var(--gold-dk)}
+
+.d-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,360px);gap:clamp(32px,6vw,88px);align-items:start;padding:56px 0 72px;border-top:1px solid var(--line)}
+.d-side{grid-column:2;grid-row:1;position:sticky;top:104px;align-self:start}
+.d-body{grid-column:1;grid-row:1;min-width:0}
+.card{background:var(--cream-2);border:1px solid var(--line);border-top:3px solid var(--gold);padding:24px 24px 26px}
+.card h2{font-size:1.5rem;margin:0 0 16px}
+.card .glance{grid-template-columns:1fr;gap:14px}
+.card .glance dd{overflow-wrap:anywhere}
+.card .btn{width:100%;margin-top:22px}
+.card .phone-link{display:flex;align-items:center;justify-content:center;min-height:48px;margin-top:6px;font-weight:600;color:var(--navy);text-underline-offset:5px;text-decoration-color:var(--gold-dk)}
+.card .phone-link:hover{color:var(--gold-dk)}
+.d-sec{padding:0 0 48px;margin-bottom:48px;border-bottom:1px solid var(--line)}
+.d-sec:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.d-sec h2{font-size:clamp(1.75rem,3vw,2.375rem);margin:0 0 20px}
+.d-sec p{max-width:62ch}
+.d-sec p+p{margin-top:14px}
+.d-sec .approach{padding-left:18px;border-left:2px solid var(--gold);margin-top:20px}
+.facts{display:grid;gap:0;margin:0;border-top:1px solid var(--line)}
+.facts div{display:grid;grid-template-columns:minmax(120px,200px) minmax(0,1fr);gap:8px 24px;padding:14px 0;border-bottom:1px solid var(--line)}
+.facts dt{font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dk);padding-top:4px}
+.facts dd{margin:0}
+.matters{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:20px}
+.matter{border-top:2px solid var(--gold);padding-top:14px}
+.matter h3{font-size:1.1875rem;line-height:1.25;margin-bottom:8px}
+.matter p{font-size:.9375rem}
+.bul{display:grid;gap:8px;padding-left:0}
+.bul li{position:relative;padding-left:22px}
+.bul li::before{content:"";position:absolute;left:2px;top:.72em;width:8px;height:2px;background:var(--gold-dk)}
+.pa-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:12px}
+.pa-links a{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:56px;padding:10px 16px;border:1px solid var(--line);background:var(--cream);color:var(--navy);font-weight:600;text-decoration:none;transition:background-color .2s var(--ease-ui),border-color .2s var(--ease-ui)}
+.pa-links a:hover{background:var(--cream-2);border-color:var(--gold-dk)}
+.pa-links .arr{display:inline-block;transition:transform .2s var(--ease-ui)}
+.pa-links a:hover .arr,.pa-links a:focus-visible .arr{transform:translateX(4px)}
+
+.pn{padding:0 0 64px}
+.pn-in{display:grid;grid-template-columns:1fr 1fr;border-top:2px solid var(--navy);border-bottom:1px solid var(--line)}
+.pn a{display:flex;flex-direction:column;justify-content:center;gap:2px;min-height:96px;padding:18px 8px;color:var(--navy);text-decoration:none;transition:background-color .2s var(--ease-ui)}
+.pn a:hover{background:var(--cream-2)}
+.pn a+a{text-align:right;align-items:flex-end;border-left:1px solid var(--line)}
+.pn .pn-k{font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dk)}
+.pn .pn-n{font-family:var(--serif);font-size:1.5rem;line-height:1.2}
+.pn .pn-r{font-size:.875rem;color:var(--muted)}
+.others{background:var(--cream-2);border-top:1px solid var(--line);padding:64px 0}
+.others h2{font-size:clamp(1.75rem,3vw,2.375rem);margin-bottom:28px}
+.mini-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px;max-width:820px}
+.mini{position:relative;display:grid;grid-template-columns:96px minmax(0,1fr);gap:18px;align-items:center;background:var(--cream);border:1px solid var(--line);padding:14px;transition:border-color .2s var(--ease-ui)}
+.mini:hover{border-color:var(--gold-dk)}
+.mini:focus-within{outline:3px solid var(--focus);outline-offset:3px}
+.mini .pf{width:96px}
+.mini .pf::after{inset:6px}
+.mini h3{font-size:1.25rem;margin:0 0 4px}
+.mini h3 a{text-decoration:none;color:var(--navy);display:inline-flex;align-items:center;min-height:44px}
+.mini h3 a::after{content:"";position:absolute;inset:0}
+.mini h3 a:focus-visible{outline:none}
+.mini .role{font-size:.75rem;letter-spacing:.12em}
+.mini .tags{font-size:.875rem;margin-top:4px}
+.proof{background:var(--cream)}
+.d-notice-t strong{font-weight:700}
+@media (max-width:900px){
+  .d-hero-grid{grid-template-columns:minmax(0,200px) minmax(0,1fr);align-items:start;gap:24px}
+  .d-layout{grid-template-columns:minmax(0,1fr);padding-top:40px}
+  .d-side{grid-column:1;grid-row:1;position:static}
+  .d-body{grid-column:1;grid-row:2}
+  .pn-in{grid-template-columns:1fr}
+  .pn a+a{border-left:0;border-top:1px solid var(--line)}
+}
+@media (max-width:639px){
+  .d-hero{padding-bottom:40px}
+  .d-hero-grid{grid-template-columns:1fr}
+  .d-hero .pf{max-width:220px}
+  .d-actions .btn{width:100%}
+  .facts div{grid-template-columns:1fr;gap:2px}
+  .mini{grid-template-columns:80px minmax(0,1fr)}
+  .mini .pf{width:80px}
+  .d-sec{padding-bottom:36px;margin-bottom:36px}
+  .others{padding:48px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  .pa-links .arr,a.chip-s,.pn a,.mini{transition:none!important}
+}
+
+</style>
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<aside class="notice" aria-label="Draft notice">
+  <p><strong>Design draft, not the live site.</strong> <span class="ph">Dashed yellow</span> = placeholder or sample content (unverified). <span class="dg" aria-hidden="true">†</span> = taken from the firm’s current website; firm to confirm before launch.</p>
+</aside>
+<header class="site-header" id="site-header">
+  <div class="bar wrap">
+    <a class="brand" href="index.html" aria-label="Hartley Law Group, home"><span class="brand-main">Hartley</span><span class="brand-sub">Law Group</span></a>
+    <nav class="nav" aria-label="Primary">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list"><span class="nav-toggle-bars" aria-hidden="true"></span><span>Menu</span></button>
+      <ul id="nav-list" class="nav-list">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="#">About</a></li>
+<li><a class="nav-link" href="index.html">Team</a></li>
+<li><a class="nav-link" href="#">Areas of Practice</a></li>
+<li><a class="nav-link" href="#">Join Us</a></li>
+<li><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-phone"><a class="phone" href="tel:+18135020588"><span class="sr">Call </span>(813) 502-0588</a></li>
+        <li class="nav-cta"><a class="btn btn--sm" href="#consult">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="d-hero" aria-labelledby="page-h">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li><a href="index.html">Team</a></li><li><span aria-current="page">Donelle White</span></li></ol></nav>
+    <div class="d-hero-grid">
+      <div class="reveal"><div class="pf"><svg class="mono" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Portrait placeholder for Donelle White: monogram DW"><text x="200" y="278" text-anchor="middle" class="ini">DW</text><line x1="160" y1="312" x2="240" y2="312" stroke="#AE965C" stroke-width="2"/><text x="200" y="424" text-anchor="middle" class="cap">PORTRAIT TBC</text></svg></div></div>
+      <div class="reveal" style="--i:1">
+        <p class="role"><span class="ph">[Title: TBC]</span></p>
+        <h1 id="page-h">Donelle White</h1>
+        <p class="lede">BA in Psychology from Albright College and a law degree from Temple University.<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></p>
+        <ul class="chips" aria-label="Practice areas"><li><a class="chip-s is-ph" href="#practice-areas"><span class="sr">Sample tag: </span>[Sample] Premises</a></li><li><a class="chip-s is-ph" href="#practice-areas"><span class="sr">Sample tag: </span>[Sample] Coverage</a></li></ul>
+        <div class="d-actions"><a class="btn" href="#consult">Request a consultation with Donelle</a><a class="phone-link" href="tel:+18135020588"><span class="sr">Call the firm: </span>(813) 502-0588</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="wrap d-layout">
+  <aside class="d-side reveal" aria-labelledby="glance-h">
+    <div class="card">
+      <h2 id="glance-h">At a glance</h2>
+      <dl class="glance"><div><dt>Admitted</dt><dd><span class="ph">[Admission details: TBC]</span></dd></div><div><dt>Florida since</dt><dd><span class="ph">[Year admitted: TBC; current site cites 1993, firm to confirm]</span></dd></div><div><dt>Courts</dt><dd><span class="ph">[Courts: TBC]</span></dd></div><div><dt>Education</dt><dd>BA Psychology, Albright College<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span>; law degree, Temple University<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></dd></div></dl>
+      <a class="btn" href="#consult">Request a consultation with Donelle</a>
+      <a class="phone-link" href="tel:+18135020588"><span class="sr">Call </span>(813) 502-0588</a>
+    </div>
+  </aside>
+  <div class="d-body">
+    <section class="d-sec reveal" id="overview" aria-labelledby="overview-h"><h2 id="overview-h">Overview</h2><p>Donelle White holds a BA in Psychology from Albright College and a law degree from Temple University.<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></p><p><span class="ph">[Practice focus: firm to supply. Sample tags used on the team drafts are Premises and Coverage.]</span></p><p><span class="ph">[Rest of bio, up to about 300 words: who Donelle helps, what Donelle handles, one proof point, one human detail. Firm to supply; the existing site bio (about 256 words) can be reused.]</span></p><p class="approach"><span class="ph">[Approach: one sentence in the attorney’s own words. TBC]</span></p></section>
+    <section class="d-sec reveal" id="matters" aria-labelledby="matters-h"><h2 id="matters-h">Representative matters</h2>
+      <div class="matters"><div class="matter"><h3><span class="ph">[Matter 1: short descriptive title]</span></h3><p><span class="ph">[Practice area · court · year · outcome, if public]</span></p><p style="margin-top:6px"><span class="ph">[One sentence: the client’s problem and the firm’s role]</span></p></div><div class="matter"><h3><span class="ph">[Matter 2: short descriptive title]</span></h3><p><span class="ph">[Practice area · court · year · outcome, if public]</span></p><p style="margin-top:6px"><span class="ph">[One sentence: the client’s problem and the firm’s role]</span></p></div><div class="matter"><h3><span class="ph">[Matter 3: short descriptive title]</span></h3><p><span class="ph">[Practice area · court · year · outcome, if public]</span></p><p style="margin-top:6px"><span class="ph">[One sentence: the client’s problem and the firm’s role]</span></p></div></div>
+      <p style="margin-top:20px;font-size:.9375rem"><span class="ph">[Use only matters that are public, non-confidential and approved by the attorney and the firm’s counsel. Hide this section if empty.]</span></p></section>
+    <section class="d-sec reveal" id="admissions" aria-labelledby="admissions-h"><h2 id="admissions-h">Admissions and courts</h2><dl class="facts"><div><dt>State bar</dt><dd><span class="ph">[Bar admissions: TBC]</span></dd></div><div><dt>Florida since</dt><dd><span class="ph">[Year admitted: TBC; current site cites 1993, firm to confirm]</span></dd></div><div><dt>Federal courts</dt><dd><span class="ph">[Court admissions: TBC]</span></dd></div><div><dt>Other admissions</dt><dd><span class="ph">[Complete admissions list: firm to supply and confirm]</span></dd></div></dl></section>
+    <section class="d-sec reveal" id="education" aria-labelledby="education-h"><h2 id="education-h">Education</h2><dl class="facts"><div><dt>Law degree</dt><dd>Temple University<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></dd></div><div><dt>Undergraduate</dt><dd>BA Psychology, Albright College<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></dd></div></dl></section>
+    <section class="d-sec reveal" id="recognition" aria-labelledby="recognition-h"><h2 id="recognition-h">Recognition</h2><p><span class="ph">[Recognition, honours and memberships: only verified items the firm has approved. Hide this section if empty.]</span></p></section>
+    <section class="d-sec reveal" id="publications" aria-labelledby="publications-h"><h2 id="publications-h">Publications and speaking</h2>
+      <ul class="bul"><li><span class="ph">[Publication: title, outlet, year. Firm to supply]</span></li><li><span class="ph">[Speaking engagement: event, topic, year. Firm to supply]</span></li></ul></section>
+    <section class="d-sec reveal" id="practice-areas" aria-labelledby="pa-h"><h2 id="pa-h">Practice areas</h2>
+      <ul class="pa-links"><li><a href="#"><span class="ph">[Sample] Premises</span><span class="arr" aria-hidden="true">→</span></a></li><li><a href="#"><span class="ph">[Sample] Coverage</span><span class="arr" aria-hidden="true">→</span></a></li></ul>
+      <p style="margin-top:16px;font-size:.9375rem"><span class="ph">[Link each tag to its practice-area page once those pages exist.]</span></p></section>
+  </div>
+</div>
+<nav class="pn" aria-label="Other attorney profiles"><div class="wrap pn-in">
+  <a href="team-detail-josh-hartley.html" rel="prev"><span class="pn-k"><span aria-hidden="true">← </span>Previous attorney</span><span class="pn-n">Josh Hartley</span><span class="pn-r">Managing Partner</span></a>
+  <a href="team-detail-shantanu-patel.html" rel="next"><span class="pn-k">Next attorney<span aria-hidden="true"> →</span></span><span class="pn-n">Shantanu Patel</span><span class="pn-r">Attorney</span></a>
+</div></nav>
+<section class="others" aria-labelledby="others-h"><div class="wrap">
+  <h2 id="others-h" class="reveal">Other team members</h2>
+  <ul class="mini-grid"><li class="mini reveal"><div class="pf"><svg class="mono" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><text x="200" y="278" text-anchor="middle" class="ini">JH</text><line x1="160" y1="312" x2="240" y2="312" stroke="#AE965C" stroke-width="2"/><text x="200" y="424" text-anchor="middle" class="cap"></text></svg></div><div><p class="role">Managing Partner<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></p><h3><a href="team-detail-josh-hartley.html">Josh Hartley</a></h3><p class="tags">Bad Faith · Coverage · Med Mal</p></div></li><li class="mini reveal"><div class="pf"><svg class="mono" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><text x="200" y="278" text-anchor="middle" class="ini">SP</text><line x1="160" y1="312" x2="240" y2="312" stroke="#AE965C" stroke-width="2"/><text x="200" y="424" text-anchor="middle" class="cap"></text></svg></div><div><p class="role"><span class="ph">[Title: TBC]</span></p><h3><a href="team-detail-shantanu-patel.html">Shantanu Patel</a></h3><p class="tags"><span class="ph">[Sample] Auto · Premises</span></p></div></li></ul>
+  <p style="margin-top:24px"><a class="link" href="index.html">View the whole team <span class="arr" aria-hidden="true">→</span></a></p>
+</div></section>
+<section class="proof" aria-labelledby="proof-h">
+  <div class="wrap">
+    <h2 id="proof-h" class="proof-h reveal">Why clients choose us</h2>
+    <ul class="proof-grid">
+      <li class="reveal" style="--i:0"><p class="proof-k">Litigation-focused</p><p>Strategic civil litigation for clients throughout Florida.<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></p></li>
+      <li class="reveal" style="--i:1"><p class="proof-k">Appellate experience</p><p>Florida Supreme Court and the Eleventh Circuit, among others.<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></p></li>
+      <li class="reveal" style="--i:2"><p class="proof-k">Clear communication</p><p>Preparation, strategy, and clear communication at every step.<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span></p></li>
+      <li class="reveal" style="--i:3"><p class="proof-k"><span class="ph">[Proof point: TBC]</span></p><p><span class="ph">[Verified recognition, result or client quote. Only if the firm supplies and approves it.]</span></p></li>
+    </ul>
+    <p class="proof-note"><span class="ph">[Placeholder strip: no statistics, awards or testimonials have been verified for this draft.]</span></p>
+  </div>
+</section>
+<section class="cta on-dark" id="consult" aria-labelledby="cta-h">
+  <div class="wrap cta-in">
+    <div class="cta-copy reveal">
+      <h2 id="cta-h">Discuss your matter with Donelle.</h2>
+      <p>We welcome the opportunity to discuss your matter.<span class="dg" aria-hidden="true">†</span><span class="sr"> (to be confirmed)</span> <span class="ph">[Reply time: firm to confirm]</span></p>
+    </div>
+    <div class="cta-actions reveal" style="--i:1">
+      <span class="sweep"><a class="btn" href="#">Request a Consultation</a></span>
+      <a class="btn btn--ghost" href="tel:+18135020588"><span class="sr">Call </span>(813) 502-0588</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer on-dark">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-name">Hartley Law Group</p>
+      <address>Island Center<br>2701 N. Rocky Point Drive, Suite 660<br>Tampa, FL 33607<br>Serving clients throughout Florida</address>
+    </div>
+    <div>
+      <p class="foot-h">Contact</p>
+      <ul class="foot-list">
+        <li><a href="tel:+18135020588">(813) 502-0588</a></li>
+        <li><a href="#consult">Request a consultation</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="foot-h">Explore</p>
+      <ul class="foot-list">
+        <li><a href="#">About</a></li><li><a href="index.html">Team</a></li><li><a href="#">Areas of Practice</a></li><li><a href="#">Join Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-legal">
+    <p>© 2026 Hartley Law Group. <span class="ph">[Privacy policy link: TBC]</span> <span class="ph">[Disclaimer / attorney advertising text: firm’s counsel to confirm]</span></p>
+  </div>
+</footer>
+<nav class="quickbar" aria-label="Quick contact">
+  <a class="qb-call" href="tel:+18135020588">Call</a>
+  <a class="qb-cta" href="#consult">Request consultation</a>
+</nav>
+<script>
+(function () {
+  var doc = document.documentElement;
+  /* scroll reveal: transform + opacity only, plays once */
+  var els = [].slice.call(document.querySelectorAll('.reveal'));
+  if (!('IntersectionObserver' in window)) {
+    els.forEach(function (e) { e.classList.add('is-visible'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('is-visible'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -5% 0px' });
+    els.forEach(function (e) { io.observe(e); });
+  }
+  /* header shadow fades in on scroll (opacity only) */
+  var hdr = document.getElementById('site-header'), ticking = false;
+  function onScroll() {
+    if (!ticking) { ticking = true; requestAnimationFrame(function () {
+      hdr.classList.toggle('is-scrolled', window.scrollY > 8); ticking = false; }); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  /* mobile menu */
+  var btn = document.querySelector('.nav-toggle'), list = document.getElementById('nav-list');
+  if (btn && list) {
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open)); list.classList.toggle('is-open', !open);
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+        btn.setAttribute('aria-expanded', 'false'); list.classList.remove('is-open'); btn.focus();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>

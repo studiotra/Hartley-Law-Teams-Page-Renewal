@@ -1,4 +1,6 @@
-# Hartely-Law-Teams-Page-Renewal
+# Hartley-Law-Teams-Page-Renewal
+
+Live site: https://hartley-law-teams-page-renewal.vercel.app/
 
 Static drafts for a Hartley Law Group team section.
 
